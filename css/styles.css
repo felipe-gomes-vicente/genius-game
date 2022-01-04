@@ -4,6 +4,47 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgba(208, 255, 239);
+.main-game {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #D0FFEF;
+}
+
+.genius {
+  display: grid;
+  grid-template-areas: 'verde vermelho' 
+  'amarelo azul';
+  grid-gap: 10px;
+  border: 1px solid #FFF;
+  background-color: #FFF;
+  border-radius: 100%;
+  width: 50%;
+  height: 98%;
+}
+
+.blue {
+  grid-area: azul;
+  background-color: #00F;
+  border-bottom-right-radius: 100%;
+}
+
+.red {
+  grid-area: vermelho;
+  background-color: #F00;
+  border-top-right-radius: 100%;
+}
+
+.yellow {
+  grid-area: amarelo;
+  background-color: #FF0;
+  border-bottom-left-radius: 100%;
+}
+
+.green {
+  grid-area: verde;
+  background-color: #080;
+  border-top-left-radius: 100%;
 }
