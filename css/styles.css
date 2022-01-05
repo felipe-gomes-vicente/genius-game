@@ -18,8 +18,8 @@
   grid-template-areas: 'verde vermelho' 
   'amarelo azul';
   grid-gap: 10px;
-  border: 1px solid #FFF;
-  background-color: #FFF;
+  border: 1px solid #DDD;
+  background-color: #DDD;
   border-radius: 100%;
   width: 50%;
   height: 98%;
@@ -27,7 +27,7 @@
 
 .blue {
   grid-area: azul;
-  background-color: #00F;
+  background-color: #1111CEEC;
   border-bottom-right-radius: 100%;
 }
 
@@ -45,6 +45,10 @@
 
 .green {
   grid-area: verde;
-  background-color: #080;
+  background-color: #0A940A;
   border-top-left-radius: 100%;
+}
+
+.selected {
+  opacity: 0.4;
 }
